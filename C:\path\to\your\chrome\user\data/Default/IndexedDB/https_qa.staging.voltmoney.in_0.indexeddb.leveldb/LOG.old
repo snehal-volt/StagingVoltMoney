@@ -1,0 +1,7 @@
+2025/04/03-18:13:23.984 8007 Creating DB /Users/snehalmahadik/IdeaProjects/StagingVoltMoney/C:\path\to\your\chrome\user\data/Default/IndexedDB/https_qa.staging.voltmoney.in_0.indexeddb.leveldb since it was missing.
+2025/04/03-18:13:23.986 8007 Reusing MANIFEST /Users/snehalmahadik/IdeaProjects/StagingVoltMoney/C:\path\to\your\chrome\user\data/Default/IndexedDB/https_qa.staging.voltmoney.in_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/03-18:13:23.990 8403 Level-0 table #5: started
+2025/04/03-18:13:23.991 8403 Level-0 table #5: 1364 bytes OK
+2025/04/03-18:13:23.993 8403 Delete type=0 #3
+2025/04/03-18:13:23.993 8403 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/03-18:13:27.367 f903 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
