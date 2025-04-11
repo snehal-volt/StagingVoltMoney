@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cucumber Test Suite" parallel="false" thread-count="2">
+    <!-- You can set the parallel attribute if you want parallel execution -->
+<!--    <test name="All Tests">-->
+<!--        <classes>-->
+<!--            <class name="org.voltMoney.runner.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Login Tests">
+        <classes>
+            <class name="org.voltMoney.runner.LoginTestRunner"/>
+        </classes>
+    </test>
+    <test name="Home Page Tests">
+        <classes>
+            <class name="org.voltMoney.runner.HomePageTestRunner"/>
+        </classes>
+    </test>
+<!--    <test name="Stepper Tests">-->
+<!--        <classes>-->
+<!--            <class name="org.voltMoney.runner.StepperTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Bank Setup Tests">
+        <classes>
+            <class name="org.voltMoney.runner.BankTestRunner"/>
+        </classes>
+    </test>
+    <test name="Mandate Setup Tests">-->
+            <classes>
+                <class name="org.voltMoney.runner.MandateTestRunner"/>
+            </classes>
+        </test>
+</suite>
+
+

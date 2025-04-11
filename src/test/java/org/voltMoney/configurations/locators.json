@@ -1,0 +1,11 @@
+
+{
+  "url": "base_url=https://qa.staging.voltmoney.in/?ref=FENIX_UAT",
+  "loginPage": {
+    "phoneNumberField" : "//*[@id=\\\"Mobile number\\\"]",
+    "continueButton" : "//*[text()=\"Continue\"]",
+    "otpPage" : "//*[text()=\"Enter OTP\"]",
+    "errorMessge" : "//div[contains(text(),'123456 is not a valid OTP. You have 4 attempts left.')]",
+    "welcomeText" : "//div[contains(text(),'Welcome')]"
+  }
+}
